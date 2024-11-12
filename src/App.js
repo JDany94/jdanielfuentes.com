@@ -1,19 +1,15 @@
-import React from "react";
-import Header from "./components/Header";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
-import './App.css';
+import React, { useState } from 'react';
+import './styles.css';
+import Sidebar from './components/Sidebar';
+import Content from './components/Content';
 
 function App() {
+  const [activeSection, setActiveSection] = useState('home');
+
   return (
-    <div className="app-container">
-      <Header />
-      <main className="main-content">
-        <About />
-        <Portfolio />
-      </main>
-      <Footer />
+    <div className="AppContainer">
+      <Sidebar activeSection={activeSection} setActiveSection={setActiveSection} />
+      <Content activeSection={activeSection} />
     </div>
   );
 }
