@@ -7,7 +7,7 @@ const Sidebar = ({ setActiveSection, activeSection }) => {
     <div className="sidebar-container">
       <div>
         <img src="/profile.jpg" alt="Profile" className="profile-image" />
-        <h1 className="name">DANIEL FUENTES</h1>
+        <h1 className="name">Daniel Fuentes</h1>
         <nav className="menu">
           <a
             href="#home"

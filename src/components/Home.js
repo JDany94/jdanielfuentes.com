@@ -4,23 +4,23 @@ const Home = () => {
   return (
     <div className="ContentContainer">
       <pre className="CodeBlock">
-        <span className="green">{"{"}</span>
+        <span className="CustomGrey">{"{"}</span>
         <br />
-        <span className="green">  name:</span> "José Daniel Fuentes Marra"
-        <span className="green">,</span>
+        <span className="CustomBlue">  name:</span><span className="CustomYellow"> "José Daniel Fuentes Marra"</span>
+        <span className="CustomGrey">,</span>
         <br />
-        <span className="green">  age:</span> 30
-        <span className="green">,</span>
+        <span className="CustomBlue">  age:</span><span className="CustomGreen"> 30</span>
+        <span className="CustomGrey">,</span>
         <br />
-        <span className="green">  job:</span> "Full stack developer"
-        <span className="green">,</span>
+        <span className="CustomBlue">  job:</span><span className="CustomYellow"> "Full stack developer"</span>
+        <span className="CustomGrey">,</span>
         <br />
-        <span className="green">  country:</span> "Spain"
-        <span className="green">,</span>
+        <span className="CustomBlue">  country:</span><span className="CustomYellow"> "Spain"</span>
+        <span className="CustomGrey">,</span>
         <br />
-        <span className="green">  email:</span> "jdanielfuentes82@gmail.com"
+        <span className="CustomBlue">  email:</span><span className="CustomYellow"> "jdanielfuentes82@gmail.com"</span> 
         <br />
-        <span className="green">{"}"}</span>
+        <span className="CustomGrey">{"}"}</span>
       </pre>
     </div>
   );

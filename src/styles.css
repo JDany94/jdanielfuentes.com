@@ -54,12 +54,13 @@ body::before {
   height: 250px;
   border-radius: 50%;
   margin-bottom: 50px;
-  border: 7px solid #1f7acf; /* color azul, puedes cambiarlo */
+  border: 7px solid #9CDCFE;
 }
 
 .name {
-  color: #1f7acf;
+  color: #9CDCFE;
   font-size: 2em;
+  font-weight: bold;
   margin-bottom: 50px;
 }
 
@@ -72,7 +73,7 @@ body::before {
 }
 
 .menu-item {
-  color: #ffffff;
+  color: #D4D4D4;
   font-size: 1.5em;
   text-decoration: none;
   transition: color 0.3s;
@@ -80,12 +81,12 @@ body::before {
 
 .menu-item:hover {
   transform: scale(1.2);
-  color: #00ff00;
+  color: #CE9178;
 }
 
 .menu-item.active {
   font-weight: bold;
-  color: #00ff00;
+  color: #CE9178;
 }
 
 .social-links {
@@ -94,14 +95,14 @@ body::before {
 }
 
 .social-btn {
-  color: white;
+  color: #D4D4D4;
   font-size: 60px;
   transition: transform 0.3s;
 }
 
 .social-btn:hover {
   transform: scale(1.2);
-  color: #00ff00;
+  color: #CE9178;
 }
 
 /* Content */
@@ -115,18 +116,68 @@ body::before {
   flex-direction: column;
 }
 
+.title {
+  font-size: 2em;
+  color: #9CDCFE;
+}
+
 /* Home */
 
 .CodeBlock {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 30px;
-  border-radius: 20px;
-  font-size: 1.6em;
+  border-radius: 30px;
+  font-size: 2em;
   color: white;
-  max-width: 700px;
   margin: 0 auto;
 }
 
-.green {
-  color: #00ff00;
+.CustomBlue {
+  color: #9CDCFE;
+}
+
+.CustomGrey {
+  color: #D4D4D4;
+}
+
+.CustomYellow {
+  color: #CE9178;
+}
+
+.CustomGreen {
+  color: #B5CEA8;
+}
+
+/* Contact */
+
+.BackBlock {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 30px;
+  font-size: 1.3em;
+  color: white;
+  margin: 0 auto;
+}
+
+.link {
+  color: #B5CEA8;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+.email {
+  color: #B5CEA8;
+  cursor: pointer;
+  font-size: 1.2em;
+  background: none;
+  border: none;
+}
+
+.email:hover, .link:hover {
+  color: #9CDCFE;
+}
+
+.icon {
+  font-size: 1.5em;
 }
