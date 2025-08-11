@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="ContentContainer">
-      <div className="BackBlock">
+      {/* <div className="BackBlock">
         <h2 className="small-title">About me</h2>
         <br />
         <p className="CustomYellow">
@@ -69,7 +69,7 @@ const About = () => {
         <p className="CustomYellow">
           Certifications
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
