@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div className="ContentContainer">
       <div className="BackBlock">
-        <h2 className="title">Contact</h2>
+        <h2 className="big-title">Contact</h2>
         <br />
         <p className="CustomYellow">
           I'm currently open to new opportunities, and my inbox is always open.
@@ -21,14 +21,14 @@ const Contact = () => {
         <br />
         <br />
         <div>
-          <p>
+          <p className="pContact">
             <FaEnvelope className="icon"/>{" "}
             <button onClick={copyToClipboard} className="email">
               jdanielfuentes82@gmail.com
             </button>
           </p>
           <br />
-          <p>
+          <p className="pContact">
             <FaLinkedin className="icon"/>{" "}
             <a
               href="https://www.linkedin.com/in/jos%C3%A9-daniel-fuentes-45a099173"
@@ -40,7 +40,7 @@ const Contact = () => {
             </a>
           </p>
           <br />
-          <p>
+          <p className="pContact">
             <FaGithub className="icon"/>{" "}
             <a
               href="https://github.com/JDany94"

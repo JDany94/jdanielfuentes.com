@@ -5,7 +5,7 @@ import "../styles.css";
 const Sidebar = ({ setActiveSection, activeSection }) => {
   return (
     <div className="sidebar-container">
-      <div>
+      <div className="sidebar-top">
         <img src="/profile.jpg" alt="Profile" className="profile-image" />
         <h1 className="name">Daniel Fuentes</h1>
         <nav className="menu">
