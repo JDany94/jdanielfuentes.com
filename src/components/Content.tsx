@@ -1,23 +1,30 @@
-import React from "react";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 
-const Content = ({ activeSection }) => {
+interface ContentProps {
+  activeSection: string;
+}
+
+const Content = ({ activeSection }: ContentProps) => {
   const renderContent = () => {
     switch (activeSection) {
-      case 'home':
+      case "home":
         return <Home />;
-      case 'about':
+      case "about":
         return <About />;
-      case 'contact':
+      case "contact":
         return <Contact />;
       default:
         return <div>Welcome! Please select a section.</div>;
     }
   };
 
-  return <>{renderContent()}</>;
+  return (
+    <div className="flex flex-1 flex-col h-full overflow-y-auto pb-16 md:pb-0">
+      {renderContent()}
+    </div>
+  );
 };
 
 export default Content;
